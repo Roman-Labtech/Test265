@@ -33,19 +33,85 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-    <!-- Status bar overlay for full screen mode (PhoneGap) -->
+<body class="theme-red">
+      <!-- Status bar overlay for fullscreen mode-->
     <div class="statusbar-overlay"></div>
-
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
-    <div class="panel panel-left panel-reveal">
+    <div class="panel panel-left panel-reveal panelgray">
+		<img src="/img/222.png" width="100%">
+      <div class="content-block">
+        
+          <div class="content-block">
+			<h3>
+				<a href="index.html">На главную</a>
+			</h3>
+		</div>
+ 
+<div class="list-block accordion-list">
+  <ul>
+    <li class="accordion-item">
+       <a href="#" class="item-content item-link">
+        <div class="item-inner">
+          <div class="item-title">Пробоотборники</div>
+        </div></a>
+      <div class="accordion-item-content">
         <div class="content-block">
-            <p>Left panel content goes here</p>
+			<p>- <a href="gas.html" data-ignore-cache="true" class="graylink"
+         >Газа</a></p>
+			<p>- <a href="neft.html" data-ignore-cache="true" class="graylink">Нефтепродуктов</a></p>
+			<p>-<a href="kraski.html" data-ignore-cache="true" class="graylink"> Красок</a></p>
+			<p>-<a href="agress.html" data-ignore-cache="true" class="graylink"> Агрессивных сред</a></p>
+			<p>-<a href="eda.html" data-ignore-cache="true" class="graylink"> Пищевых продуктов</a></p>
         </div>
-    </div>
+      </div>
+    </li>
+    <li class="accordion-item">
+       <a href="contacts.html" class="item-content item-link">
+        <div class="item-inner">
+          <div class="item-title">
+             Вискозиметры
+          </div>
+        </div>
+        </a>
+     
+    </li>
+    <li class="accordion-item">                  
+        <a href="contacts.html" class="item-content item-link">
+        <div class="item-inner">
+          <div class="item-title">
+         Запорная арматура
+          </div>
+        </div>
+        </a>
+    </li>
+    
+        <li class="accordion-item"><a href="#about" class="item-content item-link">
+        <div class="item-inner">
+            <div class="item-title">
+        Микрошприцы
+          </div>
+             </div></a>
+     
+        
+    </li>
 
+  </ul>
+</div>
+      <div class="content-block">
+		  <h3><b>Калькулятор вязкости</b></h3>
+      </div>
+      
+       
+       
+        <p> 
+        <div class="icon">
+        <i class="material-icons">help_outline</i>
+ 
+        </div></p>
+      </div>
+    </div>
     <!-- Views -->
     <div class="views">
         <!-- Your main view, should have "view-main" class -->
